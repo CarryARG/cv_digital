@@ -108,12 +108,12 @@ html{
     position: relative;
 }
 .inicio .contenido-seccion .foto img{
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 50%;
     border: 5px solid #940253;
     position: absolute;
     left: 50%;
-    top: -65px;
+    top: -100px;
     transform: translateX(-50%);
 }
 
@@ -270,4 +270,30 @@ html{
     color: #940253;
     margin-top: 10px;
     font-weight: bold;
+}
+/* SECCION CONTACTO */
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color:#e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color:#940253;
 }
