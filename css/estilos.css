@@ -259,6 +259,12 @@ html{
     border: 4px solid #1e5280;
     padding: 10px;
     border-radius: 30px;
+    transition: .3s;
+}
+.resumen .contenido-seccion .info .col .ver .verCV:hover{
+    color: whitesmoke;
+    background-color: #1e5280;
+    box-shadow: 0 0 20px whitesmoke;
 }
 .resumen .contenido-seccion .info .col .ver .verCertificados{
     
@@ -267,6 +273,12 @@ html{
     border: 4px solid #1e5280;
     padding: 10px;
     border-radius: 30px;
+    transition: .3s;
+}
+.resumen .contenido-seccion .info .col .ver .verCertificados:hover{
+    color: whitesmoke;
+    background-color: #1e5280;
+    box-shadow: 0 0 20px whitesmoke;
 }
 .resumen .contenido-seccion .info .col table{
     margin-top: 30px;
