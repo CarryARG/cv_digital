@@ -247,12 +247,12 @@ html{
     border: 2px solid #3ba4ff;
     padding: 10px;
 }
-.resumen .contenido-seccion .info .col .ver{
+.resumen .contenido-seccion .ver{
     display: inline-block;
     padding: 10px;
     transform: translateY(50%);
 }
-.resumen .contenido-seccion .info .col .ver .verCV{
+.resumen .contenido-seccion .ver .verCV{
     
     color: #1e5280;
     font-size: bold;
@@ -261,12 +261,12 @@ html{
     border-radius: 30px;
     transition: .3s;
 }
-.resumen .contenido-seccion .info .col .ver .verCV:hover{
+.resumen .contenido-seccion .ver .verCV:hover{
     color: whitesmoke;
     background-color: #1e5280;
     box-shadow: 0 0 20px whitesmoke;
 }
-.resumen .contenido-seccion .info .col .ver .verCertificados{
+.resumen .contenido-seccion .ver .verCertificados{
     
     color: #1e5280;
     font-size: bold;
@@ -275,7 +275,7 @@ html{
     border-radius: 30px;
     transition: .3s;
 }
-.resumen .contenido-seccion .info .col .ver .verCertificados:hover{
+.resumen .contenido-seccion .ver .verCertificados:hover{
     color: whitesmoke;
     background-color: #1e5280;
     box-shadow: 0 0 20px whitesmoke;
@@ -331,6 +331,34 @@ html{
     color:#027fe9;
 }
 /* SECCION RESPONSIVE */
+@media screen and (max-width:620px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .habilidades .contenido-seccion .info{
+        display: block;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        display: block;
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .contacto .contenido-seccion .fila{
+        display: block;
+    }
+}
 @media screen and (max-width:800px){
     .habilidades .contenido-seccion .fila{
         display: block;
@@ -354,6 +382,10 @@ html{
     .resumen .contenido-seccion .info .col table{
         margin-top: 10px;
         margin-bottom: 30px;
+    }
+    .resumen .contenido-seccion .ver{
+        display: block;
+        
     }
     .contacto .contenido-seccion .fila{
         display: block;
